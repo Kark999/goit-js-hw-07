@@ -34,4 +34,4 @@ const imagesGallery = images
   )
   .join("\n\n");
 console.log(imagesGallery);
-imagesList.innerHTML = imagesGallery;
+imagesList.insertAdjacentHTML("afterbegin", imagesGallery);
