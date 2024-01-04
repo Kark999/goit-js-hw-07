@@ -9,8 +9,8 @@ function updateText() {
   const inputText = userInput.value.trim();
 
   if (inputText === "" || inputText === " ") {
-    return (userOutput.textContent = "Anonymous");
+    userOutput.textContent = "Anonymous";
   } else {
-    return (userOutput.textContent = inputText);
+    userOutput.textContent = inputText;
   }
 }
