@@ -117,3 +117,51 @@ p {
   line-height: 1.33; /* 133.333% */
   letter-spacing: 0.04em;
 }
+.login-form {
+  width: 360px;
+  min-height: 208px;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.login-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  gap: 8px;
+}
+.input-field {
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-color: #808080;
+}
+.form-btn {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  border: none;
+}
