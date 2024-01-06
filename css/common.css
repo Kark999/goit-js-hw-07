@@ -9,7 +9,8 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-ul {
+ul,
+li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -77,10 +78,14 @@ p {
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  gap: 48px 24px;
+  width: 1440px;
+  height: 848px;
+  /* width: calc((100% - 24px) / 3); */
+  padding: 100px 156px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  background-color: #fff;
 }
 .image-gallery {
-  border-radius: 10px;
 }
