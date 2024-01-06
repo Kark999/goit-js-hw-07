@@ -8,7 +8,7 @@ userInput.addEventListener("input", updateText);
 function updateText() {
   const inputText = userInput.value.trim();
 
-  if (inputText === "") {
+  if (!inputText) {
     userOutput.textContent = "Anonymous";
   } else {
     userOutput.textContent = inputText;

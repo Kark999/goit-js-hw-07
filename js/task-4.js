@@ -9,16 +9,15 @@ function onFormSubmit(event) {
   const emailValue = email.value.trim();
   const passwordValue = password.value.trim();
 
-  if (!emailValue || !passwordValue) {
-    alert("All form fields must be filled in");
-  } else {
-    const userData = {
-      email: emailValue,
-      password: passwordValue,
-    };
+  if (!emailValue || !passwordValue)
+    return alert("All form fields must be filled in");
 
-    console.log(userData);
+  const userData = {
+    email: emailValue,
+    password: passwordValue,
+  };
 
-    form.reset();
-  }
+  console.log(userData);
+
+  form.reset();
 }
