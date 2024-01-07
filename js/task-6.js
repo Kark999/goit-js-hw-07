@@ -7,9 +7,8 @@ createButton.addEventListener("click", createBoxes);
 destroyButton.addEventListener("click", destroyBoxes);
 
 function createBoxes() {
-  const amount = input.value;
+  const amount = Number(input.value);
   if (amount < 1 || amount > 100 || isNaN(amount)) {
-    // alert("Please enter a number between 1 and 100.");
     return;
   }
   boxesContainer.innerHTML = "";

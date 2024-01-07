@@ -1,7 +1,5 @@
 const userInput = document.querySelector("#name-input");
 const userOutput = document.querySelector("#name-output");
-// console.log(userInput);
-// console.log(userOutput);
 
 userInput.addEventListener("input", updateText);
 

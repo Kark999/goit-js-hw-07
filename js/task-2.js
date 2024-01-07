@@ -33,5 +33,4 @@ const imagesGallery = images
       `<li><img class="image-gallery" src="${image.url}" alt="${image.alt}" width="360" height="300"></li>`
   )
   .join("\n\n");
-console.log(imagesGallery);
 imagesList.insertAdjacentHTML("afterbegin", imagesGallery);
